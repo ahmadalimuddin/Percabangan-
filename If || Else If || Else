@@ -1,0 +1,49 @@
+//menampilkan bulan
+//menentukan bulan
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+void main()
+{
+	int kode_bulan;
+	
+	cout<<"selamat datang dan salam sejahtera!!"<<endl<<endl; 
+	
+	cout<<"keterang kode bulan :"<<endl<<endl;
+	cout<<"1 = januari 2 = februari   3 = maret   4 = april     5 = mei 6 = juni 7  = juli"<<endl;
+	cout<<"8 = agustus 9 = september  10= oktober 11= november  12= desember"<<endl<<endl;
+	cout<<"masukkan kode bulan : ";
+	cin>>kode_bulan;
+	cout<<endl;
+
+	if (kode_bulan == 1)
+		cout<<"ini bulan = Januari"<<endl<<endl;
+	else if (kode_bulan ==2)
+		cout<<"ini bulan = Februari"<<endl<<endl;
+	else if (kode_bulan == 3)
+		cout<<"ini bulan = maret"<<endl<<endl;
+	else if (kode_bulan == 4)
+		cout<<"ini bulan = April"<<endl;
+	else if (kode_bulan == 5)
+		cout<<"ini bulan kesayangan = Mei"<<endl;
+	else if (kode_bulan == 6)
+		cout<<"ini bulan = juni"<<endl;
+	else if (kode_bulan == 7)
+		cout<<"ini bulan = Juli"<<endl;
+	else if (kode_bulan == 8)
+		cout<<"ini bulan = agustus "<<endl;
+	else if (kode_bulan == 9)
+		cout<<"ini bulan = September"<<endl;
+	else if (kode_bulan == 10)
+		cout<<"ini bulan = Oktober"<<endl;
+	else if (kode_bulan == 11)
+		cout<<"ini bulan = november"<<endl;
+	else if (kode_bulan == 12)
+		cout<<"ini bulan = desember "<<endl;
+	
+	else
+		cout<<"Maaf, Kode bulan yang anda masukkan salah!!"<<endl;
+
+	getch ();
+}

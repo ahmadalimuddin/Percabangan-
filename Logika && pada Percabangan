@@ -1,0 +1,29 @@
+//penggunaan logika && pada if statement
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+void main()
+{
+	float x,y;
+
+	cout<<"selamat datang dan salam sejahtera!!"<<endl;	
+	cout<<"-------------------------------------"<<endl<<endl;
+	cout<<"silahkan masukkan bilangan positif atau negatif"<<endl;
+	cout<<"masukkan nilai x : "<<"\n";
+	cin>>x; 
+	cout<<endl;
+
+	cout<<"masukkan nilai y : "<<endl;
+	cin>>y; 
+	cout<<endl;
+
+	if ((x-2) && (y-2))
+	{
+		cout<<"x dan y bernilai positif!!"<<endl;
+	}
+	else
+	{cout<<"x, y : ternyata ada yang negatif"<<endl;}
+	
+	getch();
+}
